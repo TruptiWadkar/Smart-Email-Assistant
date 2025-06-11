@@ -29,27 +29,27 @@ This project automates the handling of internal company emails using **Machine L
 ---
 
 ## 🧱 Project Architecture
+
 smart-email-assistant/
 │
 ├── Agents/
-│ ├── email_classifier.py
-│ ├── response_generator.py
-│ └── escalation_agent.py
+│   ├── email_classifier.py
+│   ├── response_generator.py
+│   └── escalation_agent.py
 │
 ├── models/
-│ ├── email_classifier.pkl
-│ └── vectorizer.pkl
+│   ├── email_classifier.pkl
+│   └── vectorizer.pkl
 │
-├── smart_ui.py # Streamlit-based UI
-├── orchestrator.py # Main controller script
-├── emails.csv # Sample dataset
-├── escalation_log.txt # Logged low-confidence/Other emails
+├── smart_ui.py           # Streamlit-based UI
+├── orchestrator.py       # Main controller script
+├── emails.csv            # Sample dataset
+├── escalation_log.txt    # Logged low-confidence/Other emails
 ├── requirements.txt
 ├── README.md
 └── .gitignore
 
 ---
-
 ## 💡 Features
 
 - Simple **Streamlit UI** to test emails.
