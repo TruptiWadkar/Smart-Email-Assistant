@@ -1,9 +1,8 @@
-#AIzaSyCeVGaSAsBTor7tMIRDYrUpKA6hsMoo4u4
 #Import Gemini SDK
 import google.generativeai as genai
 
 # Configure  Gemini API key
-genai.configure(api_key="AIzaSyCeVGaSAsBTor7tMIRDYrUpKA6hsMoo4u4") 
+genai.configure(api_key="Your API Key") 
 
 # Define the response generation function
 def generate_response(email_text, predicted_category):
