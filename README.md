@@ -48,7 +48,6 @@ smart-email-assistant/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-
 '''
 ---
 ## 💡 Features
