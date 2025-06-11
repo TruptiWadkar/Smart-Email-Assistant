@@ -1,0 +1,1 @@
+{"email_text": "The internet\u2019s acting weird and I can't seem to open websites unless I restart every time. Happens often.\n", "predicted_category": "Other", "confidence": 0.3849547100187539}
