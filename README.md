@@ -27,7 +27,7 @@ This project automates the handling of internal company emails using **Machine L
 - If the confidence is low (`< 0.6`) or the category is `Other`, the email is logged in `escalation_log.txt` for manual handling.
 
 ---
-'''
+```
 ## 🧱 Project Architecture
 
 smart-email-assistant/
@@ -48,7 +48,7 @@ smart-email-assistant/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-'''
+```
 ---
 ## 💡 Features
 
