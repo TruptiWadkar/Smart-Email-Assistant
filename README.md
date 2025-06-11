@@ -27,9 +27,8 @@ This project automates the handling of internal company emails using **Machine L
 - If the confidence is low (`< 0.6`) or the category is `Other`, the email is logged in `escalation_log.txt` for manual handling.
 
 ---
-```
 ## 🧱 Project Architecture
-
+```
 smart-email-assistant/
 │
 ├── Agents/
@@ -41,10 +40,10 @@ smart-email-assistant/
 │ ├── email_classifier.pkl
 │ └── vectorizer.pkl
 │
-├── smart_ui.py # Streamlit-based UI
-├── orchestrator.py # Main controller script
-├── emails.csv # Sample dataset
-├── escalation_log.txt # Logged low-confidence/Other emails
+├── smart_ui.py 
+├── orchestrator.py 
+├── emails.csv 
+├── escalation_log.txt 
 ├── requirements.txt
 ├── README.md
 └── .gitignore
