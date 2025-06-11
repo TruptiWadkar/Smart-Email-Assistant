@@ -29,7 +29,7 @@ This project automates the handling of internal company emails using **Machine L
 ---
 
 ## 🧱 Project Architecture
-
+'''
 smart-email-assistant/
 │
 ├── Agents/
@@ -48,7 +48,7 @@ smart-email-assistant/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-
+'''
 ---
 ## 💡 Features
 
